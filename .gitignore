@@ -1,15 +1,9 @@
-# vscode
-.vscode 
+.ds_store
+desktop.ini
+.*
+!.gitignore
+!.nvmrc
 
-# Intellij
-*.iml
-.idea
+/.*/
 
-# npm
-node_modules
-
-# Exclude sourcemaps
-*.map
-
-# Exclude macOS Finder (System Explorer) View States
-.DS_Store
+/working/
